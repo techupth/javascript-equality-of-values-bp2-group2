@@ -9,9 +9,9 @@ Object.is(NaN, 100);
 Object.is("one", "two");
 // false
 Object.is({ name: "John", age: 30 }, { name: "John", age: 30 });
-// true
+// false
 Object.is(null, undefined);
-// true 
+// false 
 10 === 20;
 // false 
 10 === "10"
@@ -23,10 +23,10 @@ Object.is(null, undefined);
 NaN === NaN;
 // true 
 0 !== -0;
-// true
+// false
 
 let objectA = { course: "Web Developer", price: 300000 };
 let objectB = { course: "Web Developer", price: 300000 };
 objectA === objectB;
-// true
+// false
 
