@@ -21,7 +21,7 @@ Object.is(null, undefined);
 "TechUp" !== "TechUp";
 // false
 NaN === NaN;
-// true 
+// false 
 0 !== -0;
 // false
 
